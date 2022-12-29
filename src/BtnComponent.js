@@ -3,7 +3,7 @@ import React from 'react';
 
 function BtnComponent() {
   return (
-    <div className="main-section">
+    <div>
       <h1>BTN_COMPONENT</h1>
       
     </div>

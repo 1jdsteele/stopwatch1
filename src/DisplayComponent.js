@@ -1,10 +1,10 @@
 import React from 'react';
 
-function DisplayComponent() {
+function DisplayComponent(props) {
   return (
-    <div className="main-section">
-        <h1>hello from display component</h1>
-      
+    <div>
+        <h1>hello form display component</h1>
+        <span>{props.time.h}</span>&nbsp;:&nbsp;
     </div>
   );
 }
