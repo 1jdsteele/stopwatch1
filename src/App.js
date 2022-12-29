@@ -1,9 +1,17 @@
+import React from 'react';
+import DisplayComponent from './DisplayComponent';
+import BtnComponent from './BtnComponent';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <h1>hello world!</h1>
+    <div className="main-section">
+      <div className="clock-holder">
+        <div className="stopwatch">
+          <DisplayComponent />
+          <BtnComponent />
+        </div>
+      </div>   
     </div>
   );
 }
